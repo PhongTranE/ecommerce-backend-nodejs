@@ -8,7 +8,7 @@ const router = express.Router();
 router.use(apiKey);
 
 //check permission
-router.use(permission("0000"));
+// router.use(permission("0000"));
 
 router.use("/v1/api", require("./access"));
 
